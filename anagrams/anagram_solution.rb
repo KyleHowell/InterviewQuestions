@@ -21,7 +21,7 @@ end
 
 sorted_words.each do |sorted_word, anagrams|
   if (anagrams.length >= sorted_word.length)
-    anagrams.each{|word| print "#{word} "}
+    anagrams.each{|word| print "#{word}, "}
     print "\n"
   end
 end
