@@ -9,9 +9,10 @@
 # inset, neist, snite, stein, stine, tsine
 
 # To execute from command line:
-# python find_anagrams /usr/share/dict/words 4/usr/share/dict/words 4
+# python anagrams.py /usr/share/dict/words 4
 # To execute from interpreter:
-# find_anagrams("/usr/share/dict/words", 4)
+# import anagrams
+# anagrams.find_anagrams("/usr/share/dict/words", 4)
 
 def find_anagrams(dictionary_path, word_length):
   from collections import defaultdict
